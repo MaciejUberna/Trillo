@@ -29,7 +29,7 @@ function style() {
           .pipe(concat('style.css'))
 
           // -webkit- and so on
-          .pipe(autoprefixer({browserslist: ['last 10 versions'],cascade: false}))
+          .pipe(autoprefixer({overrideBrowserslist: ['last 10 versions'],cascade: false}))
 
           // What is the destination for the compiled file?
           .pipe(gulp.dest("css"))
