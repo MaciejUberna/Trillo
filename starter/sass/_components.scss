@@ -141,7 +141,7 @@
         height: 100%;
         width: 3px;
         background-color: var(--color-primary);
-        //transform-origin: bottom;
+        transform-origin: bottom;
         //cubic-bezier.com
         transform: scaleY(0);
         transition: transform .2s,
@@ -163,10 +163,14 @@
 
         display: flex;
         align-items: center;
+
+        //z-index works only when we have specified position!
+        position: relative;
+        z-index: 10;
     }
 
     &__link:hover {
-        color: orangered;
+
     }
 
     &__icon {
