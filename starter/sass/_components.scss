@@ -187,9 +187,25 @@
     }
 }
 
+//////////////////////////////////////////////
+// LEGAL TEXT
+
 .legal {
     font-size: 1.5rem;
     color: var(--color-grey-light4);
     text-align: center;
     padding: 2.5rem;
+}
+
+//////////////////////////////////////////////
+// GALLERY
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        //img should always be a block or an inline-block
+        display: block;
+    }
 }
