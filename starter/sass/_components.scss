@@ -343,8 +343,8 @@
     &__item:before {
         content: "";
         display: inline-block;
-        width: 2rem;
-        height: 2rem;
+        width: 1rem;
+        height: 1rem;
         margin-right: .7rem;
 
         //Older browsers
@@ -363,5 +363,21 @@
 // RECOMMEND
 
 .recommend {
+    font-size: 1.3rem;
+    color: var(--color-grey-light3);
 
+    &__count {
+
+    }
+
+    &__friends {
+        
+    }
+
+    &__photo {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+
+    }
 }
