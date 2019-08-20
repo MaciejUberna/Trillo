@@ -364,20 +364,28 @@
 
 .recommend {
     font-size: 1.3rem;
-    color: var(--color-grey-light3);
+    color: var(--color-grey-dark3);
+
+    display: flex;
 
     &__count {
 
     }
 
     &__friends {
-        
+
     }
 
     &__photo {
+        // So that the border of the images does not consume photo space
+        box-sizing: content-box;
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
+        border: 3px solid #fff;
 
+        &:not(:last-child){
+            margin-right: -1.5rem;
+        }
     }
 }
