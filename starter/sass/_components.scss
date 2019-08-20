@@ -367,9 +367,11 @@
     color: var(--color-grey-dark3);
 
     display: flex;
+    //Y axis centering
+    align-items: center;
 
     &__count {
-
+        margin-right: auto;
     }
 
     &__friends {
