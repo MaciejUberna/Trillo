@@ -55,6 +55,6 @@ function watchFiles(){
 exports.style = style;
 
 // Don't forget to expose the task!
-exports.watchFiles = watchFiles
+exports.watchFiles = watchFiles;
 
 exports.checkHTML = checkHTML;
