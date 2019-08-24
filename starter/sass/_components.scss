@@ -403,9 +403,13 @@
     margin-bottom: 3.5rem;
     display: flex;
     flex-direction: column;
+    position: relative;
 
     &__text {
-
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
     }
 
     &__user {
@@ -442,5 +446,18 @@
         font-size: 2.2rem;
         color: var(--color-primary);
         font-weight: 300;
+    }
+
+    &:before {
+        // taken from site: https://css-tricks.com/snippets/html/glyphs/
+        content: "\201C";
+        position: absolute;
+        top: -2.75rem;
+        left: -1rem;
+        line-height: 1;
+        font-size: 20rem;
+        color: var(--color-grey-light2);
+        font-family: sans-serif;
+        z-index: 1;
     }
 }
