@@ -411,6 +411,7 @@
     &__user {
         margin-top: 2rem;
         display: flex;
+        align-items: center;
     }
 
     &__photo {
@@ -422,6 +423,7 @@
     &__user-box {
         display: flex;
         flex-direction: column;
+        margin-right: auto;
     }
 
     &__name {
@@ -436,6 +438,5 @@
     &__rating {
         font-size: 2rem;
         color: var(--color-primary);
-        margin-left: auto;
     }
 }
