@@ -401,13 +401,16 @@
     box-shadow: var(--shadow-light);
     padding: 3rem;
     margin-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
 
     &__text {
 
     }
 
     &__user {
-
+        margin-top: 2rem;
+        display: flex;
     }
 
     &__photo {
@@ -417,18 +420,22 @@
     }
 
     &__user-box {
-
+        display: flex;
+        flex-direction: column;
     }
 
-    &__user__name {
-
+    &__name {
+        text-transform: uppercase;
     }
 
     &__user-date {
-
+        font-size: 1.1rem;
+        color: var(--color-grey-dark3);
     }
 
     &__rating {
-
+        font-size: 2rem;
+        color: var(--color-primary);
+        margin-left: auto;
     }
 }
