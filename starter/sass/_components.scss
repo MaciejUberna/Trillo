@@ -500,11 +500,13 @@
     position: relative;
     overflow: hidden;
 
+    transition: all 2s;
+
     & > * {
         display: inline-block;
         height: 100%;
         width: 100%;
-        
+
         transition: all .2s;
     }
 
@@ -517,6 +519,10 @@
         padding: 2rem 0;
         left: 0;
         top: -100%;
+    }
+
+    &:hover {
+        background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark));
     }
 
     &:hover &__visible {
