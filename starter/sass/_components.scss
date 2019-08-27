@@ -185,6 +185,11 @@
         margin-right: 2rem;
         fill: currentColor;
     }
+
+    @media only screen and (max-width: $bp-medium) {
+        display: flex;
+        margin:0;
+    }
 }
 
 //////////////////////////////////////////////
@@ -195,6 +200,10 @@
     color: var(--color-grey-light4);
     text-align: center;
     padding: 2.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        display: none;
+    }
 }
 
 //////////////////////////////////////////////
@@ -396,7 +405,7 @@
         border: 3px solid #fff;
 
         &:not(:last-child){
-            margin-right: -1.5rem;
+            margin-right: -2rem;
         }
     }
 }
