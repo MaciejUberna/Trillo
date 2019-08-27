@@ -129,6 +129,14 @@
 
         &:not(:last-child){
             margin-bottom: .5rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                margin:0;
+            }
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            flex: 1;
         }
     }
 
