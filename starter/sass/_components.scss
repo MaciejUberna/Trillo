@@ -18,6 +18,8 @@
     @media only screen and(max-width: $bp-smallest) {
         // because the rest has the order of 0 so this one will be the last.
         order: 1;
+        flex: 0 0 100%;
+        background-color: var(--color-grey-light2);
     }
 
     &__input {
