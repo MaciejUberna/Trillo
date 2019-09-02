@@ -19,8 +19,6 @@ In order to deploy this webpage, web server is needed. In this project live-serv
 Send comments on this account.
 
 ### Copyright
-Git. Training. All rights reserved.
-
 Copyright © by Johnas Schedman. 
 You are 100% allowed to use this page for personal and commertial use, 
 but not to claim it as your own desigh. 
