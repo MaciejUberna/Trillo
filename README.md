@@ -14,6 +14,10 @@ Teach flexbox.
 
 In order to deploy this webpage, web server is needed. In this project live-server was used.
 
+## Testing
+Install node.js. In /Trillo project run in consol following script:
+"npm run start"
+
 ## How to contribute
 
 Send comments on this account.
