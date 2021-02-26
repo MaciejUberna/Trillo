@@ -4,8 +4,7 @@ var gulp = require('gulp'),
 sass = require('gulp-sass'),
 concat = require('gulp-concat'),
 wait = require('gulp-wait'),
-autoprefixer = require('gulp-autoprefixer'),
-gls = require('gulp-live-server');
+autoprefixer = require('gulp-autoprefixer');
 
 function checkHTML(html){
   console.log("Html "+html+" zmieniony.");
@@ -37,8 +36,6 @@ function style() {
 }
 
 function watchFiles(){
-    // var server = gls.static(); //equals to gls.static('public', 3000);
-    // server.start();
 
   // gulp.watch takes in the location of the files to watch for changes
   // and the name of the function we want to run on change
