@@ -1,5 +1,5 @@
 # Trillo
-Html 5 CSS3 project creates trello like webpage to manage projects.
+Html 5 CSS3 project creates trello like webpage to book hotels.
 This project is flexbox exercise.
 
 ## Introduction
